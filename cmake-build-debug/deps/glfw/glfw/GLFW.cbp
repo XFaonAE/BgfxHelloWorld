@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\bkaradzic\;CMake Files\deps\bkaradzic\bgfx.cmake\;CMake Files\deps\bkaradzic\bgfx.cmake\cmake\;CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\;CMake Files\deps\bkaradzic\bgfx.cmake\cmake\tools\;CMake Files\deps\bkaradzic\bgfx.cmake\cmake\util\;CMake Files\deps\bkaradzic\bgfx.cmake\generated\;CMake Files\deps\glfw\;CMake Files\deps\glfw\glfw\;CMake Files\deps\glfw\glfw\CMake\;CMake Files\deps\glfw\glfw\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_X11"/>
+					<Add option="-D_DEFAULT_SOURCE"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/include"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_X11"/>
+					<Add option="-D_DEFAULT_SOURCE"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/include"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="update_mappings">
+				<Option working_dir="/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 update_mappings"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug/deps/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/CMake/GenerateMappings.cmake">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/mappings.h.in">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/null_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/null_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/null_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/null_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/null_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/null_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/platform.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/posix_module.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/posix_poll.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/posix_poll.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/bgfx.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/bimg.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/bx.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/examples.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/shared.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/tools.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/version.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/astc-codec.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/astc.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/dear-imgui.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/edtaa3.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/etc1.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/etc2.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/fcpp.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/glsl-optimizer.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/glslang.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/iqa.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/libsquish.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/meshoptimizer.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/nvtt.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/pvrtc.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/spirv-cross.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/spirv-tools.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/tinyexr.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/3rdparty/webgpu.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/tools/geometryc.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/tools/geometryv.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/tools/shaderc.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/tools/texturec.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/tools/texturev.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\tools\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/cmake/util/ConfigureDebugging.cmake">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\cmake\util\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/generated/shader.cpp.in">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\generated\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/generated/vertexlayout.cpp.in">
+			<Option virtualFolder="CMake Files\deps\bkaradzic\bgfx.cmake\generated\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\glfw\glfw\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\deps\glfw\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\deps\glfw\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\deps\glfw\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\glfw\glfw\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

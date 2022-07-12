@@ -1,0 +1,266 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/libpvrtc.a"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"install",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"deps/bkaradzic/bgfx.cmake/cmake/3rdparty/pvrtc.cmake",
+			"deps/bkaradzic/bgfx.cmake/cmake/bimg.cmake",
+			"deps/bkaradzic/bgfx.cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bimg/3rdparty"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				7,
+				10,
+				12,
+				14
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx/3rdparty"
+	},
+	"id" : "pvrtc::@da80386a6fcfeec7a30a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "pvrtc",
+	"nameOnDisk" : "libpvrtc.a",
+	"paths" : 
+	{
+		"build" : "deps/bkaradzic/bgfx.cmake",
+		"source" : "deps/bkaradzic/bgfx.cmake"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				11,
+				13,
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				7,
+				10,
+				12,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/AlphaBitmap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/BitScale.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/BitScale.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/BitUtility.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/Bitmap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/ColorRgba.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/Interval.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/MortonTable.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/MortonTable.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/Point2.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcDecoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcDecoder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcEncoder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcEncoder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcPacket.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcPacket.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/RgbBitmap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/pvrtc/RgbaBitmap.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

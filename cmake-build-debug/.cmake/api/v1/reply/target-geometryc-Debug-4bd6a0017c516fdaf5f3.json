@@ -1,0 +1,243 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/geometryc"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"install",
+			"target_link_libraries",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"deps/bkaradzic/bgfx.cmake/cmake/tools/geometryc.cmake",
+			"deps/bkaradzic/bgfx.cmake/cmake/tools.cmake",
+			"deps/bkaradzic/bgfx.cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "BX_CONFIG_DEBUG=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/3rdparty"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bgfx/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bgfx/3rdparty"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "bx::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "meshoptimizer::@da80386a6fcfeec7a30a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx/tools"
+	},
+	"id" : "geometryc::@da80386a6fcfeec7a30a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "libbx.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "libmeshoptimizer.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "geometryc",
+	"nameOnDisk" : "geometryc",
+	"paths" : 
+	{
+		"build" : "deps/bkaradzic/bgfx.cmake",
+		"source" : "deps/bkaradzic/bgfx.cmake"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/tools/geometryc/geometryc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "cmake-build-debug/deps/bkaradzic/bgfx.cmake/generated/vertexlayout.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

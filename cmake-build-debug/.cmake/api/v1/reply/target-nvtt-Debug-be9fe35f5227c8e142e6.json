@@ -1,0 +1,525 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/libnvtt.a"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"install",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"deps/bkaradzic/bgfx.cmake/cmake/3rdparty/nvtt.cmake",
+			"deps/bkaradzic/bgfx.cmake/cmake/bimg.cmake",
+			"deps/bkaradzic/bgfx.cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "BX_CONFIG_DEBUG=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bimg/3rdparty"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/3rdparty"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				8,
+				9,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				42,
+				48
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "bx::@da80386a6fcfeec7a30a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx/3rdparty"
+	},
+	"id" : "nvtt::@da80386a6fcfeec7a30a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "nvtt",
+	"nameOnDisk" : "libnvtt.a",
+	"paths" : 
+	{
+		"build" : "deps/bkaradzic/bgfx.cmake",
+		"source" : "deps/bkaradzic/bgfx.cmake"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				10,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				43,
+				44,
+				45,
+				46,
+				47,
+				49
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				8,
+				9,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				42,
+				48
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/bits.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/shapes_two.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/tile.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/zoh.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/zoh.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/zoh_utils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/zoh_utils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/zohone.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc6h/zohtwo.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_mode0.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_mode1.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_mode2.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_mode3.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_mode4.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_mode5.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_mode6.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_mode7.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_utils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/avpcl_utils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/bits.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/endpts.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/shapes_three.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/shapes_two.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/bc7/tile.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/array.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/array.inl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/debug.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/defsgnucdarwin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/defsgnuclinux.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/defsgnucwin32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/defsvcwin32.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/foreach.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/hash.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/memory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/nvcore.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/posh.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/stdstream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/stream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/strlib.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvcore/utils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/fitting.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/fitting.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/matrix.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/nvmath.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/plane.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvmath/vector.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvtt.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/3rdparty/nvtt/nvtt.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

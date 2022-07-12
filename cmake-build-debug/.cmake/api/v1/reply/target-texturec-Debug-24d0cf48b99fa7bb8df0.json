@@ -1,0 +1,299 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/texturec"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"install",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"deps/bkaradzic/bgfx.cmake/cmake/tools/texturec.cmake",
+			"deps/bkaradzic/bgfx.cmake/cmake/tools.cmake",
+			"deps/bkaradzic/bgfx.cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 172,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "BX_CONFIG_DEBUG=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bimg/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/3rdparty"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "bx::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "astc-codec::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "astc::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "edtaa3::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "etc1::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "etc2::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "iqa::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "squish::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "nvtt::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "pvrtc::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "tinyexr::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "bimg::@da80386a6fcfeec7a30a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx/tools"
+	},
+	"id" : "texturec::@da80386a6fcfeec7a30a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "libbimg.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libastc-codec.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libastc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libedtaa3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libetc1.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libetc2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libiqa.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libsquish.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libnvtt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libbx.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libpvrtc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libtinyexr.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "texturec",
+	"nameOnDisk" : "texturec",
+	"paths" : 
+	{
+		"build" : "deps/bkaradzic/bgfx.cmake",
+		"source" : "deps/bkaradzic/bgfx.cmake"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bimg/tools/texturec/texturec.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

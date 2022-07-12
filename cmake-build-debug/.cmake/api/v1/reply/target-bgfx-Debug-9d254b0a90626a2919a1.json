@@ -1,0 +1,747 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/libbgfx.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"install",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"deps/bkaradzic/bgfx.cmake/cmake/bgfx.cmake",
+			"deps/bkaradzic/bgfx.cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "BGFX_CONFIG_MULTITHREADED=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BX_CONFIG_DEBUG=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bgfx/3rdparty"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bgfx/3rdparty/dxsdk/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bgfx/3rdparty/khronos"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bgfx/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/3rdparty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bimg/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				7,
+				11,
+				13,
+				27,
+				29,
+				31,
+				35,
+				38,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				54,
+				55,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				71
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "bx::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "astc-codec::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "astc::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "edtaa3::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "etc1::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "etc2::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "iqa::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "squish::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "nvtt::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "pvrtc::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tinyexr::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "bimg::@da80386a6fcfeec7a30a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx"
+	},
+	"id" : "bgfx::@da80386a6fcfeec7a30a",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "bgfx",
+	"nameOnDisk" : "libbgfx.a",
+	"paths" : 
+	{
+		"build" : "deps/bkaradzic/bgfx.cmake",
+		"source" : "deps/bkaradzic/bgfx.cmake"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				8,
+				9,
+				10,
+				12,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				28,
+				30,
+				32,
+				33,
+				36,
+				37,
+				39,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				70,
+				72,
+				73,
+				74
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7,
+				11,
+				13,
+				26,
+				27,
+				29,
+				31,
+				34,
+				35,
+				38,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				54,
+				55,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				71
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/include/bgfx/bgfx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/include/bgfx/c99/bgfx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/include/bgfx/defines.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/include/bgfx/embedded_shader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/include/bgfx/platform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/amalgamated.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/amalgamated.mm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/bgfx.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/bgfx_p.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/charset.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/debug_renderdoc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/debug_renderdoc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/dxgi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/dxgi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/emscripten.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/fs_clear0.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/fs_clear1.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/fs_clear2.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/fs_clear3.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/fs_clear4.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/fs_clear5.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/fs_clear6.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/fs_clear7.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/fs_debugfont.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_eagl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_eagl.mm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_egl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_egl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_glx.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_glx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_html5.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_html5.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_nsgl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_nsgl.mm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_wgl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glcontext_wgl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/glimports.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/nvapi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/nvapi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_agc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_d3d.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_d3d11.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_d3d11.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_d3d12.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_d3d12.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_d3d9.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_d3d9.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_gl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_gl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_gnm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_mtl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_mtl.mm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_noop.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_nvn.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_vk.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_vk.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_webgpu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/renderer_webgpu.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/shader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/shader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/shader_dx9bc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/shader_dx9bc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/shader_dxbc.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/shader_dxbc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/shader_spirv.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/shader_spirv.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/topology.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/topology.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/version.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/vertexlayout.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/vertexlayout.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/vs_clear.bin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "deps/bkaradzic/bgfx.cmake/bgfx/src/vs_debugfont.bin.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

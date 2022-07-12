@@ -1,0 +1,310 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "app"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BGFX_CONFIG_MULTITHREADED=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BX_CONFIG_DEBUG=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bgfx/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "bx::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "astc-codec::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "astc::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "edtaa3::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "etc1::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "etc2::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "iqa::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "squish::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "nvtt::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "pvrtc::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "tinyexr::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "bimg::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "bgfx::@da80386a6fcfeec7a30a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@8b9458f705d82d412b37"
+		}
+	],
+	"id" : "app::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libbgfx.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "deps/glfw/glfw/src/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libbimg.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libastc-codec.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libastc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libedtaa3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libetc1.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libetc2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libiqa.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libsquish.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libnvtt.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libbx.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libpvrtc.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/bkaradzic/bgfx.cmake/libtinyexr.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lSM",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lICE",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lX11",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lXext",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lOpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGLX",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGLU",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bstatic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-Bdynamic",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "app",
+	"nameOnDisk" : "app",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cxx",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

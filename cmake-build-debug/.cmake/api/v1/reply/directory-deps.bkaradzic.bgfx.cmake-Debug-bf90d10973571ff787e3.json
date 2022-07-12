@@ -1,0 +1,477 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/bkaradzic/bgfx.cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 153,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 154,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 163,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 172,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 191,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 198,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/licences/bgfx",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/bgfx/LICENSE"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libbgfx.a"
+			],
+			"targetId" : "bgfx::@da80386a6fcfeec7a30a",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libbimg.a"
+			],
+			"targetId" : "bimg::@da80386a6fcfeec7a30a",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libbx.a"
+			],
+			"targetId" : "bx::@da80386a6fcfeec7a30a",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libastc-codec.a"
+			],
+			"targetId" : "astc-codec::@da80386a6fcfeec7a30a",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libastc.a"
+			],
+			"targetId" : "astc::@da80386a6fcfeec7a30a",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libedtaa3.a"
+			],
+			"targetId" : "edtaa3::@da80386a6fcfeec7a30a",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libetc1.a"
+			],
+			"targetId" : "etc1::@da80386a6fcfeec7a30a",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libetc2.a"
+			],
+			"targetId" : "etc2::@da80386a6fcfeec7a30a",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libiqa.a"
+			],
+			"targetId" : "iqa::@da80386a6fcfeec7a30a",
+			"targetIndex" : 63,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libsquish.a"
+			],
+			"targetId" : "squish::@da80386a6fcfeec7a30a",
+			"targetIndex" : 71,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libnvtt.a"
+			],
+			"targetId" : "nvtt::@da80386a6fcfeec7a30a",
+			"targetIndex" : 66,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libpvrtc.a"
+			],
+			"targetId" : "pvrtc::@da80386a6fcfeec7a30a",
+			"targetIndex" : 67,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/libtinyexr.a"
+			],
+			"targetId" : "tinyexr::@da80386a6fcfeec7a30a",
+			"targetIndex" : 74,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/bx/include/bx",
+				"deps/bkaradzic/bgfx.cmake/bx/include/compat",
+				"deps/bkaradzic/bgfx.cmake/bx/include/tinystl"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/bimg/include/bimg"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/bgfx/include/bgfx"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/bgfx",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/bgfx/src/bgfx_shader.sh",
+				"deps/bkaradzic/bgfx.cmake/bgfx/src/bgfx_compute.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/shaderc"
+			],
+			"targetId" : "shaderc::@da80386a6fcfeec7a30a",
+			"targetIndex" : 68,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/geometryc"
+			],
+			"targetId" : "geometryc::@da80386a6fcfeec7a30a",
+			"targetIndex" : 57,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/geometryv"
+			],
+			"targetId" : "geometryv::@da80386a6fcfeec7a30a",
+			"targetIndex" : 58,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/texturec"
+			],
+			"targetId" : "texturec::@da80386a6fcfeec7a30a",
+			"targetIndex" : 72,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/texturev"
+			],
+			"targetId" : "texturev::@da80386a6fcfeec7a30a",
+			"targetIndex" : 73,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/bgfx",
+			"paths" : 
+			[
+				"cmake-build-debug/deps/bkaradzic/bgfx.cmake/generated/bgfxConfig.cmake",
+				"cmake-build-debug/deps/bkaradzic/bgfx.cmake/generated/bgfxConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/bgfx",
+			"exportName" : "bgfxTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "bgfx::@da80386a6fcfeec7a30a",
+					"index" : 3
+				},
+				{
+					"id" : "bimg::@da80386a6fcfeec7a30a",
+					"index" : 4
+				},
+				{
+					"id" : "bx::@da80386a6fcfeec7a30a",
+					"index" : 5
+				},
+				{
+					"id" : "astc-codec::@da80386a6fcfeec7a30a",
+					"index" : 2
+				},
+				{
+					"id" : "astc::@da80386a6fcfeec7a30a",
+					"index" : 1
+				},
+				{
+					"id" : "edtaa3::@da80386a6fcfeec7a30a",
+					"index" : 7
+				},
+				{
+					"id" : "etc1::@da80386a6fcfeec7a30a",
+					"index" : 8
+				},
+				{
+					"id" : "etc2::@da80386a6fcfeec7a30a",
+					"index" : 9
+				},
+				{
+					"id" : "iqa::@da80386a6fcfeec7a30a",
+					"index" : 63
+				},
+				{
+					"id" : "squish::@da80386a6fcfeec7a30a",
+					"index" : 71
+				},
+				{
+					"id" : "nvtt::@da80386a6fcfeec7a30a",
+					"index" : 66
+				},
+				{
+					"id" : "pvrtc::@da80386a6fcfeec7a30a",
+					"index" : 67
+				},
+				{
+					"id" : "tinyexr::@da80386a6fcfeec7a30a",
+					"index" : 74
+				},
+				{
+					"id" : "shaderc::@da80386a6fcfeec7a30a",
+					"index" : 68
+				},
+				{
+					"id" : "geometryc::@da80386a6fcfeec7a30a",
+					"index" : 57
+				},
+				{
+					"id" : "geometryv::@da80386a6fcfeec7a30a",
+					"index" : 58
+				},
+				{
+					"id" : "texturec::@da80386a6fcfeec7a30a",
+					"index" : 72
+				},
+				{
+					"id" : "texturev::@da80386a6fcfeec7a30a",
+					"index" : 73
+				}
+			],
+			"paths" : 
+			[
+				"deps/bkaradzic/bgfx.cmake/CMakeFiles/Export/lib/cmake/bgfx/bgfxTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/bkaradzic/bgfx.cmake",
+		"source" : "deps/bkaradzic/bgfx.cmake"
+	}
+}

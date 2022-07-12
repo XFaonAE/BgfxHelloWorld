@@ -1,0 +1,614 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/CMakeLists.txt"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/version.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/shared.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/generated/vertexlayout.cpp.in"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/generated/shader.cpp.in"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/bx.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/bimg.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/astc-codec.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/astc.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/edtaa3.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/etc1.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/etc2.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/iqa.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/libsquish.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/nvtt.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/pvrtc.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/tinyexr.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/bgfx.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindX11.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindFreetype.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindFontconfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/tools.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/tools/geometryc.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/meshoptimizer.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/tools/geometryv.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/tools/shaderc.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/fcpp.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/glsl-optimizer.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/glslang.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/spirv-cross.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/spirv-tools.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/webgpu.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/tools/texturec.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/tools/texturev.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/examples.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/util/ConfigureDebugging.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/dear-imgui.cmake"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/3rdparty/meshoptimizer.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/BasicConfigVersion-SameMinorVersion.cmake.in"
+		},
+		{
+			"path" : "deps/bkaradzic/bgfx.cmake/cmake/Config.cmake.in"
+		},
+		{
+			"path" : "deps/glfw/glfw/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindDoxygen.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "deps/glfw/glfw/CMake/glfw3Config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "deps/glfw/glfw/CMake/cmake_uninstall.cmake.in"
+		},
+		{
+			"path" : "deps/glfw/glfw/src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindX11.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindFreetype.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindFontconfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/lib/snapd/snap/clion/198/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"path" : "deps/glfw/glfw/CMake/glfw3.pc.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/xfaon/CLionProjects/BgfxHelloWorld/cmake-build-debug",
+		"source" : "/home/xfaon/CLionProjects/BgfxHelloWorld"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
