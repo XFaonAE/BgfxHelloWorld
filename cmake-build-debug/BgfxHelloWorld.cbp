@@ -26,10 +26,15 @@
 				<Compiler>
 					<Add option="-DBX_CONFIG_DEBUG=1"/>
 					<Add option="-DBGFX_CONFIG_MULTITHREADED=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
 					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake"/>
 					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw"/>
 					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bgfx/include"/>
 					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/include"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/include"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/3rdparty"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>
@@ -54,10 +59,15 @@
 				<Compiler>
 					<Add option="-DBX_CONFIG_DEBUG=1"/>
 					<Add option="-DBGFX_CONFIG_MULTITHREADED=1"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
 					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake"/>
 					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw"/>
 					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bgfx/include"/>
 					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/glfw/glfw/include"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/include"/>
+					<Add directory="/home/xfaon/CLionProjects/BgfxHelloWorld/deps/bkaradzic/bgfx.cmake/bx/3rdparty"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/../../../../include/c++/12.1.0/backward"/>

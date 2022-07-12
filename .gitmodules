@@ -4,3 +4,6 @@
 [submodule "deps/glfw/glfw"]
 	path = deps/glfw/glfw
 	url = https://github.com/glfw/glfw
+[submodule "deps/bkaradzic/bx"]
+	path = deps/bkaradzic/bx
+	url = https://github.com/bkaradzic/bx

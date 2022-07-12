@@ -9,4 +9,4 @@ include_directories(deps/bkaradzic/bgfx.cmake)
 add_subdirectory(deps/glfw/glfw)
 include_directories(deps/glfw/glfw)
 
-target_link_libraries(app bgfx glfw)
+target_link_libraries(app bgfx glfw bx)
